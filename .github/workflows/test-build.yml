@@ -39,4 +39,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         source: "."
-        target: "/home/contact.cgerbaud.fr/public_html"
+        target: "/home/contact.cgerbaud.fr/public_html2"
