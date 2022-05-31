@@ -41,3 +41,5 @@ jobs:
         port: 22
         source: "./src/*"
         target: "/home/contact.cgerbaud.fr/public_html2"
+        rm: true
+        strip_components: 1
