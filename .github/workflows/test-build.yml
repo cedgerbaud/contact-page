@@ -25,8 +25,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
-          passphrase: ''
+          password: ${{ secrets.PASSWORD }}
           port: 22
           source: "./"
           target: "/home/contact.cgerbaud.fr/public_html"
