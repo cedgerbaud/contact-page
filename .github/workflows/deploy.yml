@@ -27,7 +27,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: 22
-        source: "./src/*"
+        source: "LICENSE"
         target: "/home/contact.cgerbaud.fr/public_html"
         rm: true
         strip_components: 1
