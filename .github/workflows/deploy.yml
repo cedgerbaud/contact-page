@@ -6,7 +6,7 @@ name: Deploy website
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ fix/workflow ]
 
 
   # Allows you to run this workflow manually from the Actions tab
@@ -31,3 +31,4 @@ jobs:
         target: "/home/contact.cgerbaud.fr/public_html"
         rm: true
         strip_components: 1
+        debug: true
