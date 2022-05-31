@@ -38,8 +38,8 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: 22
-        source: "./src/*"
+        source: "/home/runner/work/contact-page/contact-page"
         target: "/home/contact.cgerbaud.fr/public_html"
         rm: true
-        # strip_components: 1
-        debug: true
+        strip_components: 1
+        # debug: true
