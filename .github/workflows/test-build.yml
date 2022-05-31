@@ -39,5 +39,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: 22
-        source: "./src/, README.md"
+        source: "./src/*"
         target: "/home/contact.cgerbaud.fr/public_html2"
